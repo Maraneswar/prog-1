@@ -10,14 +10,14 @@ public class HelloWorld {
             JFrame frame = new JFrame("Hello World");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(300, 200);
-            
+
             // Add the label
             JLabel label = new JLabel("Hello, World!", SwingConstants.CENTER);
             frame.add(label);
-            
+
             // Center the frame on the screen
             frame.setLocationRelativeTo(null);
-            
+
             frame.setVisible(true);
         });
     }
